@@ -2,15 +2,14 @@ image: wmacmillan/gp-general-dev
 
 
 ports:
-- port: 8050
-  onOpen: ignore
-- port: 8051
+- port: 8501
   onOpen: ignore
 - port: 8888
   onOpen: ignore
 
 tasks:
-- command: pip install shortuuid matplotlib python-igraph streamlit quandl yfinance pytest FinQuant && nohup jupyter notebook --config=/workspace/special-system/.jupyter/jupyter_notebook_config.py &
+- init: pip install matplotlib streamlit quandl yfinance pytest FinQuant
+- command: nohup jupyter notebook --config=/workspace/special-system/.jupyter/jupyter_notebook_config.py &
 
 
 github:
