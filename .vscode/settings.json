@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Noir",
+    "git.confirmSync": false,
+    "terminal.integrated.inheritEnv": false,
+    "python.dataScience.askForKernelRestart": false,
+    "python.venvFolders": [
+        "~/.pyenv/"
+    ],
+    "python.dataScience.alwaysScrollOnNewCell": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.dataScience.allowUnauthorizedRemoteConnection": true,
+    "files.exclude": {
+        "**/maildir/*": true
+    },
+    "search.exclude": {
+        "**/maildir/*": true
+    },
+    "python.dataScience.jupyterCommandLineArguments": [
+    "--NotebookApp.allow_origin = '*'",
+    "--NotebookApp.ip = '0.0.0.0'",
+    "--NotebookApp.open_browser = False"
+    ],
+    "python.pythonPath": "/home/gitpod/.pyenv/versions/3.9.4/bin/python",
+    "python.dataScience.useNotebookEditor": false,
+    "editor.inlineHints.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.fontWeight": 100
+}
