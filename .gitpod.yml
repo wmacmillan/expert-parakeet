@@ -3,7 +3,7 @@ image: wmacmillan/gp-general-dev
 
 ports:
 - port: 8501
-  onOpen: ignore
+  onOpen: open-browser
 - port: 8888
   onOpen: ignore
 
