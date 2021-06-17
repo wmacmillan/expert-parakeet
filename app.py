@@ -1,7 +1,8 @@
-import streamlit as st
-
 #!/usr/bin/env python
 # coding: utf-8
+import streamlit as st
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 # In[6]:
 
